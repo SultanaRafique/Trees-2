@@ -4,8 +4,10 @@
 // 2. When a leaf is reached, return the complete root-to-leaf number.
 // 3. Add the results from the left and right subtrees to get the total sum.
 
-// **Time Complexity:** `O(n)` — visit every node once.
-// **Space Complexity:** `O(h)` — recursion stack, where `h` is the tree height.
+// **Time Complexity:** O(n) — visit every node once.
+// **Space Complexity:** O(h) — recursion stack, where `h` is the tree height.
+
+//
 class SumRootToLeafNum {
 
     public int sumNumbers(TreeNode root) {
